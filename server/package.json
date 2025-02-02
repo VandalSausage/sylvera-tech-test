@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "Truman Wright",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon -e ts",
+    "start": "yarn ts-node index.ts"
+  },
+  "dependencies": {
+    "better-sqlite-pool": "^0.3.2",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "express": "^5"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
