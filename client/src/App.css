@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.project {
+  width: 12em;
+  height: 12em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  padding: 2em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1em;
+}
+
+.no-country {
+  opacity: 50%;
+}
